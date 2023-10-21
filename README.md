@@ -13,9 +13,9 @@
 - 📫 You can reach me out on [Twitter](https://twitter.com/ugbewijc), [LinkedIn](https://linkedIn.com/in/ugbewijc) or [Mail](mailto:ugbewijc@gmail.com)
 <br>
 
-
+<p align="center">
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ugbewijc&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
-
+</p>
 <!--
 **ugbewijc/ugbewijc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
