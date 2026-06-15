@@ -8,8 +8,8 @@
 
 
 - 🌱 [ALX Software Engineering](https://www.alxafrica.com/software-engineering-plus/) Grad (Back-End Engineer)
-- 👯 I’m looking to collaborate on Python and NodeJS projects
-- 💬 Am open for SE Job
+- 👯 I’m looking to collaborate on web applications (JavaScript/NodeJS) projects
+- 💬 Am open to a Software Engineering Job
 - 📫 You can reach me out on [Twitter](https://twitter.com/ugbewijc), [LinkedIn](https://linkedIn.com/in/ugbewijc) or [Mail](mailto:ugbewijc@gmail.com)
 <br>
 
