@@ -1,7 +1,7 @@
 import React from 'react';
 export default function AboutMe(): React.JSX.Element {
   return (
-    <section id="about" className="about-section">
+    <section id="about">
       <div className="row align-items-center gy-5">
         <div>
           <h4 className='section-title'>About Me</h4>

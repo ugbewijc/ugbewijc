@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import TechnicalSkills from './components/TechnicalSkills'
 import TopSkills from './components/TopSkills'
+import Projects from './components/Projects'
 
 function App() {
   const [darkMode, setDarkMode] = useState<boolean>(() => {
@@ -43,7 +44,7 @@ function App() {
             </div>
           </div>
         </div>
-        {/* <Projects /> */}
+        <Projects />
         <CallToAction />
       </main>
       <Footer />

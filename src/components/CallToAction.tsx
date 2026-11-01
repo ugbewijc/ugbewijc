@@ -4,7 +4,7 @@ import { personalInfo } from '../data/portfolioData';
 
 export default function CallToAction(): React.JSX.Element {
   return (
-    <div className="container cta-banner-wrapper">
+    <div className="container cta-banner-wrapper my-4">
       <div className="cta-banner-dark">
         <div className="row align-items-center gy-4">
           <div className="col-lg-8">

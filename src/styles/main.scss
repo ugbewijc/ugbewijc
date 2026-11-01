@@ -2,24 +2,6 @@
 // BOOTSTRAP CUSTOMIZATION & PORTFOLIO STYLES
 // ==========================================
 
-// Required core utilities
-@import "bootstrap/scss/functions";
-@import "bootstrap/scss/variables";
-@import "bootstrap/scss/maps";
-@import "bootstrap/scss/mixins";
-@import "bootstrap/scss/root";
-
-// Core layout & base
-@import "bootstrap/scss/reboot";
-@import "bootstrap/scss/grid";
-@import "bootstrap/scss/utilities";
-
-// Only the components you need
-// @import "bootstrap/scss/buttons";
-// @import "bootstrap/scss/card";
-// @import "bootstrap/scss/forms";
-
-
 // Variable Overrides
 $primary: #2563eb;
 $primary-hover: #1d4ed8;
@@ -64,9 +46,6 @@ $btn-padding-x: 1.35rem;
     --quickfacts-bg: #f8fafc;
     --tag-bg: #f1f5f9;
     --tag-text: #475569;
-    --input-bg: #ffffff;
-    --input-border: #e2e8f0;
-    --input-text: #0f172a;
 }
 
 [data-theme="dark"] {
@@ -84,9 +63,6 @@ $btn-padding-x: 1.35rem;
     --quickfacts-bg: #111c33;
     --tag-bg: #1e293b;
     --tag-text: #cbd5e1;
-    --input-bg: #111c33;
-    --input-border: #1e293b;
-    --input-text: #f8fafc;
 
     body {
         background-color: var(--app-bg);
@@ -178,7 +154,7 @@ body {
     }
 }
 
-// 5. Hero Section
+// Hero Section
 .hero-section {
     padding-top: 2.5rem;
     padding-bottom: 1.5rem;
@@ -396,7 +372,7 @@ body {
     }
 }
 
-// 6. Top Skills Bar (Image 2)
+// Top Skills Bar
 .top-skills-container {
     margin-top: 2rem;
     margin-bottom: 3rem;
@@ -439,110 +415,6 @@ body {
     }
 }
 
-// 7. About Me Section (Image 3)
-.about-section {
-    // padding-top: 3rem;
-    // padding-bottom: 5rem;
-
-    // .section-title {
-    //     font-size: 2.25rem;
-    //     font-weight: 800;
-    //     letter-spacing: -0.02em;
-    //     margin-bottom: 1.25rem;
-    // }
-
-    .about-bio {
-        // font-size: 1.05rem;
-        line-height: 1.75;
-        color: var(--app-text-muted);
-        margin-bottom: 2rem;
-    }
-
-    .highlights-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-
-        .highlight-card {
-            flex: 1 1 180px;
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-
-            .highlight-icon-circle {
-                width: 44px;
-                height: 44px;
-                border-radius: 50%;
-                background-color: #e0edff;
-                color: #2563eb;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-
-                [data-theme="dark"] & {
-                    background-color: rgba(37, 99, 235, 0.2);
-                    color: #60a5fa;
-                }
-            }
-
-            .highlight-desc {
-                font-size: 13px;
-                line-height: 1.45;
-                color: var(--app-text-muted);
-                margin: 0;
-            }
-        }
-    }
-
-    .quick-facts-card {
-        background-color: var(--quickfacts-bg);
-        border: 1px solid var(--card-border);
-        border-radius: 1.5rem;
-        padding: 2.2rem;
-        box-shadow: var(--card-shadow);
-
-        .facts-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            margin-bottom: 1.75rem;
-            color: var(--app-text);
-        }
-
-        .fact-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 1rem;
-            margin-bottom: 1.35rem;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            .fact-icon {
-                color: var(--app-text-muted);
-                margin-top: 0.15rem;
-            }
-
-            .fact-content {
-                .fact-label {
-                    font-size: 0.82rem;
-                    font-weight: 700;
-                    color: var(--app-text);
-                    display: block;
-                    margin-bottom: 0.15rem;
-                }
-
-                .fact-val {
-                    font-size: 0.92rem;
-                    color: var(--app-text-muted);
-                    text-decoration: none;
-                    display: block;
-                }
-            }
-        }
-    }
-}
-
 // Featured Projects Section
 .projects-section {
     padding-top: 3.5rem;
@@ -550,13 +422,6 @@ body {
 
     .section-header {
         margin-bottom: 2.5rem;
-
-        // .section-title {
-        //     font-size: 2.25rem;
-        //     font-weight: 800;
-        //     letter-spacing: -0.02em;
-        //     margin-bottom: 0.5rem;
-        // }
 
         .section-subtitle {
             font-size: 1rem;
@@ -873,11 +738,8 @@ body {
     }
 }
 
-//Technical Skills & Education
+// Technical Skills & Education
 .tech-skills-section {
-    // padding-top: 3.5rem;
-    // padding-bottom: 4rem;
-
 
     .tech-skill-card {
         background-color: var(--card-bg);
@@ -901,70 +763,11 @@ body {
             justify-content: center;
             margin-bottom: 1.25rem;
         }
-
-        .tech-category-title {
-            font-size: 1.15rem;
-            font-weight: 700;
-            margin-bottom: 0.65rem;
-            color: var(--app-text);
-        }
-    }
-
-    .education-section-block {
-        margin-top: 4rem;
-
-        .edu-card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 1.25rem;
-            padding: 1.75rem;
-            display: flex;
-            align-items: flex-start;
-            gap: 1.25rem;
-            box-shadow: var(--card-shadow);
-
-            .edu-icon-circle {
-                width: 48px;
-                height: 48px;
-                border-radius: 50%;
-                background-color: #f1f5f9;
-                color: var(--app-text);
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-                flex-shrink: 0;
-
-                [data-theme="dark"] & {
-                    background-color: #1e293b;
-                    color: #f8fafc;
-                }
-            }
-
-            .edu-degree {
-                font-size: 1.1rem;
-                font-weight: 700;
-                color: var(--app-text);
-                margin-bottom: 0.25rem;
-            }
-
-            .edu-institution {
-                font-size: 0.92rem;
-                color: var(--app-text-muted);
-                margin-bottom: 0.2rem;
-            }
-
-            .edu-period {
-                font-size: 0.85rem;
-                color: var(--app-text-muted);
-            }
-        }
     }
 }
 
-//CTA Banner
+// CTA Banner
 .cta-banner-wrapper {
-    // margin-top: 1.5rem;
-    // margin-bottom: 1.5rem;
 
     .cta-banner-dark {
         background-color: #0b1329;
@@ -999,111 +802,7 @@ body {
     }
 }
 
-// 11. Contact Section (Image 5)
-.contact-section {
-    padding-top: 1rem;
-    padding-bottom: 6rem;
-
-    // .section-title {
-    //     font-size: 2.25rem;
-    //     font-weight: 800;
-    //     margin-bottom: 0.75rem;
-    // }
-
-    .section-desc {
-        font-size: 1rem;
-        color: var(--app-text-muted);
-        margin-bottom: 2.5rem;
-        max-width: 480px;
-    }
-
-    .contact-info-list {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 1.25rem;
-
-            .contact-icon {
-                color: var(--app-text);
-            }
-
-            .contact-link {
-                font-size: 0.98rem;
-                color: var(--app-text);
-                text-decoration: none;
-                transition: color 0.2s ease;
-
-                &:hover {
-                    color: $primary;
-                }
-            }
-        }
-    }
-
-    .contact-form-card {
-        background-color: var(--card-bg);
-        border: 1px solid var(--card-border);
-        border-radius: 1.25rem;
-        padding: 2.5rem;
-        box-shadow: var(--card-shadow);
-
-        @media (max-width: 768px) {
-            padding: 1.75rem;
-        }
-
-        .form-label {
-            font-weight: 600;
-            font-size: 0.88rem;
-            color: var(--app-text);
-            margin-bottom: 0.4rem;
-        }
-
-        .form-control {
-            background-color: var(--input-bg);
-            border: 1px solid var(--input-border);
-            color: var(--input-text);
-            border-radius: 0.65rem;
-            padding: 0.75rem 1rem;
-            font-size: 0.95rem;
-
-            &:focus {
-                border-color: $primary;
-                box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
-            }
-
-            &::placeholder {
-                color: #94a3b8;
-            }
-        }
-
-        .btn-send-message {
-            background-color: $primary;
-            color: #ffffff;
-            font-weight: 600;
-            width: 100%;
-            padding: 0.85rem;
-            border-radius: 0.65rem;
-            border: none;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.5rem;
-            margin-top: 0.5rem;
-            transition: all 0.25s ease;
-
-            &:hover {
-                background-color: $primary-hover;
-                transform: translateY(-2px);
-            }
-        }
-    }
-}
-
-// 12. Footer (Image 5)
+//  Footer
 .portfolio-footer {
     background-color: #080d1a;
     color: #94a3b8;
@@ -1182,7 +881,7 @@ body {
     }
 }
 
-// 13. Project Detail Modal
+// Project Detail Modal
 .project-modal {
     .modal-content {
         background-color: var(--card-bg);
@@ -1194,7 +893,7 @@ body {
 
     .modal-header {
         border-bottom: 1px solid var(--card-border);
-        padding: 1.5rem 2rem;
+        padding: 1rem 2rem;
     }
 
     .modal-body {
@@ -1202,7 +901,7 @@ body {
 
         .modal-project-img {
             width: 100%;
-            height: 320px;
+            height: 300px;
             object-fit: cover;
             border-radius: 1rem;
             margin-bottom: 1.5rem;
