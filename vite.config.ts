@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 import htmlPurge from 'vite-plugin-purgecss';
 
 export default defineConfig({
+  base: '/ugbewijc/',
   plugins: [
     react(),
     // Add PurgeCSS plugin here to safely parse your final build output
