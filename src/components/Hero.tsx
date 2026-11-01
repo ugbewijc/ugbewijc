@@ -80,7 +80,7 @@ export default function Hero(): React.JSX.Element {
               <div className="hero-blob-bg"></div>
               <div className="hero-img-card">
                 <img
-                  src="/workspace-portrait.png"
+                  src={`${import.meta.env.BASE_URL}workspace-portrait.png`}
                   alt={personalInfo.name}
                   onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
                     e.currentTarget.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80";
